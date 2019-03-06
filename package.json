@@ -5,10 +5,13 @@
   "author": "Rasitha Ariyarathna",
   "license": "MIT",
   "scripts": {
+    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "start": "npm server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -20,6 +23,7 @@
     "babel-preset-react": "^6.24.1",
     "bable-loader": "^0.0.1-security",
     "css-loader": "0.28.4",
+    "express": "^4.16.4",
     "extract-text-webpack-plugin": "4.0.0-alpha.0",
     "jest": "20.0.4",
     "live-server": "^1.2.1",
