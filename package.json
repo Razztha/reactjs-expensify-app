@@ -1,6 +1,9 @@
 {
   "name": "Expensify-App",
   "version": "1.0.0",
+  "engines":{
+    "node": "11.9.0"
+  },
   "main": "index.js",
   "author": "Rasitha Ariyarathna",
   "license": "MIT",
