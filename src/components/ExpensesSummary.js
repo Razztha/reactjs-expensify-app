@@ -7,7 +7,7 @@ import numeral from 'numeral';
 export const ExpenseSummary = ({totalExpenseAmount, expenseCount}) =>
 {
     const expenseWord = expenseCount == 1 ? 'expense' : 'expenses';
-    const totalExpenseFormattedCount = numeral(totalExpenseAmount).format('$0,0.00');
+    const totalExpenseFormattedCount = numeral(totalExpenseAmount/100).format('$0,0.00');
 
     return (
     <div>
