@@ -32,6 +32,7 @@
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "normalize.css": "7.0.0",
+    "numeral": "^2.0.6",
     "react": "^16.8.2",
     "react-addons-shallow-compare": "^15.6.2",
     "react-dates": "^20.0.0",
@@ -47,8 +48,8 @@
     "webpack": "^4.29.6"
   },
   "devDependencies": {
+    "jest": "20.0.4",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14",
-    "jest": "20.0.4"
+    "webpack-dev-server": "^3.1.14"
   }
 }

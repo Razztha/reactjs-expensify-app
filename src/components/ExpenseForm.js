@@ -87,7 +87,7 @@ class ExpenseForm extends React.Component
 
         this.props.onSubmit({
             description: this.state.description,
-            amount: parseFloat(this.state.amount, 10) * 100,
+            amount: parseFloat(this.state.amount, 10),
             note: this.state.note,
             createdAt: this.state.createdAt.valueOf()
         })
